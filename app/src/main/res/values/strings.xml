@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DipolSizes2</string>
+    <string name="toolbar">Определение промежутков A и B</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9802856203007191/6812882567</string>
+    <string name="freq">Частота, МГц: </string>
+    <string name="CalcSizes">Расчет</string>
+    <string name="SizeA">От края антенны до края мачты: </string>
+    <string name="units"> см</string>
+    <string name="SizeB">Между антеннами: </string>
+    <string name="units2">м</string>
+    <string name="emptyFreqFieldMsg">Необходимо ввести частоту.</string>
+    <string name="emptyCoeffFieldMsg">Для расчета расстояния между антеннами необходимо ввести коэффициент.</string>
+    <string name="Coefficient">Коэффициент Потолоцкого</string>
+    <string name="freqLimits">Частота должна быть в диапазоне от %.0f до %.0f МГц</string>
+    <string name="coeffLimits">Коэффициент должен быть в диапазоне от %.1f до %.0f</string>
+    <string name="a_for_2">A при λ/2:</string>
+    <string name="Scheme">Схема</string>
+    <string name="a_for_4">A при λ/4:</string>
+    <string name="a_for_8">A при λ/8:</string>
+    <string name="_0_9">0.9</string>
+    <string name="_175_125">155.125</string>
+    <string name="autor">©Федоренко Александр, fedorenko@mail.ru, +79778257952</string>
+</resources>

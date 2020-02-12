@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/freq"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/etFreq1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="4"
+                android:hint="@string/_175_125"
+                android:inputType="numberDecimal"
+                android:textColor="#ff0000"
+                tools:text="175.125" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Coefficient"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/etCoefficient1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="2"
+                android:hint="@string/_0_9"
+                android:inputType="numberDecimal"
+                android:text="@string/_0_9"
+                android:textColor="#ff0000" />
+
+            <Button
+                android:id="@+id/btnCalc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CalcSizes" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SizeA"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_for_8"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvSizeA13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                tools:text="21см" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_for_4"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvSizeA12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                tools:text="42см" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_for_2"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvSizeA11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                tools:text="84см" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvFormulaB1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SizeB"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tvSizeB1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                tools:text="165" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/Scheme"
+            ads:srcCompat="@drawable/schema" />
+
+    </LinearLayout>
+
+    <android.fmproject.ru.dipolsizes2.ScrollingTextView
+        android:id="@+id/tvAutor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/autor"
+        android:textColor="#80000000"
+        android:textSize="12sp"
+        ads:layout_constraintBottom_toBottomOf="@+id/mainLayout"
+        ads:layout_constraintStart_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

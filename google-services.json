@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "459109246675",
+    "firebase_url": "https://dipolsizes2.firebaseio.com",
+    "project_id": "dipolsizes2",
+    "storage_bucket": "dipolsizes2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459109246675:android:00413d619402d6a5",
+        "android_client_info": {
+          "package_name": "android.fmproject.ru.dipolsizes2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459109246675-i0pcfprt4e264abr53f5rbar3a3m4j24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.fmproject.ru.dipolsizes2",
+            "certificate_hash": "ba9cb91f1c2e554e880e9bb7e9f75e809d02eb02"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDebpYzPBubgP8asViCz7D7v0k4n7eKisw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459109246675-0mq9ofbl30fpkmh644lsp8bid24h6f4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9802856203007191~2354956671"
+    }
+  ],
+  "configuration_version": "1"
+}
